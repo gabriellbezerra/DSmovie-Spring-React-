@@ -16,7 +16,6 @@ header{
     margin: 0;
     font-weight: 700;
     font-size: 24px;
-    align-items: center;
 }
 
 .dsmovie-github-icon{
@@ -25,8 +24,6 @@ header{
 }
 
 .dsmovie-github-name{
-    align-items: center;
-    display: flex;
     margin: 0 0 0 10px;
     font-size: 12px;
 }
