@@ -5,12 +5,12 @@ import {
 } from "react-router-dom";
 import Listing from 'pages/Listing';
 import Form from 'pages/Form';
-import Navbar from "components/NavBar";
+import NavBar from "components/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Listing />} />
         <Route path="/form">
